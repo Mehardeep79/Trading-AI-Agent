@@ -41,7 +41,7 @@ matplotlib>=3.6.0
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/trading-ai-agent.git
+git clone https://github.com/Mehardeep79/Trading-AI-Agent.git
 cd trading-ai-agent
 ```
 
@@ -157,15 +157,6 @@ trading-ai-agent/
 - [ ] Support for cryptocurrency trading
 - [ ] Implement other RL algorithms (A3C, PPO)
 
-## ⚠️ Disclaimer
-
-This project is for educational and research purposes only. Past performance does not guarantee future results. Always conduct thorough testing before using any trading algorithm with real money. The authors are not responsible for any financial losses incurred from using this software.
-
-## 📚 References
-
-- [Building an AI Agent using Agentic AI](https://amanxai.com/2025/02/18/building-an-ai-agent-using-agentic-ai/)
-- Deep Q-Learning: [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
-- [OpenAI Gym Documentation](https://gym.openai.com/)
 
 ## 🤝 Contributing
 
@@ -178,11 +169,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@Mehardeep79](https://github.com/Mehardeep79)
+- LinkedIn: [Mehardeep Singh Sandhu](https://www.linkedin.com/in/mehardeep-singh-sandhu/)
 
-## 🙏 Acknowledgments
-
-- Original tutorial by [Aman Kharwal](https://amanxai.com/2025/02/18/building-an-ai-agent-using-agentic-ai/)
-- Yahoo Finance for providing stock market data
-- PyTorch team for the deep learning framework
