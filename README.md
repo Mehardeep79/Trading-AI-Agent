@@ -50,39 +50,13 @@ cd trading-ai-agent
 pip install -r requirements.txt
 ```
 
-## 🎯 Usage
-
-### Training the Agent
-
-```python
-from trading_agent import TradingEnvironment, DQNAgent
-
-# Initialize environment and agent
-env = TradingEnvironment(data)
-agent = DQNAgent(state_size=4, action_size=3)
-
-# Train for 500 episodes
-for episode in range(500):
-    state = env.reset()
-    # Training loop...
-```
-
-### Testing Performance
-
-```python
-# Test the trained agent
-test_env = TradingEnvironment(data)
-final_balance = test_agent(agent, test_env)
-print(f"Final Balance: ${final_balance:.2f}")
-```
-
 ## 📊 Performance
 
 The AI agent demonstrates successful learning capabilities:
 
 - **Initial Balance**: $10,000
-- **Final Balance**: $10,178.89
-- **Total Profit**: $178.89 (1.79% return)
+- **Final Balance**: $32,908.82
+- **Total Profit**: $22,908.82 
 - **Training Episodes**: 500
 
 ## 🧠 How It Works
@@ -128,22 +102,6 @@ epsilon_decay = 0.995  # Exploration decay rate
 learning_rate = 0.001  # Neural network learning rate
 batch_size = 32        # Training batch size
 memory_size = 2000     # Experience replay buffer size
-```
-
-## 📁 Project Structure
-
-```
-trading-ai-agent/
-├── README.md
-├── requirements.txt
-├── trading_agent.py       # Main agent implementation
-├── environment.py         # Trading environment
-├── neural_network.py      # DQN model definition
-├── data_processor.py      # Data collection and preprocessing
-├── train.py              # Training script
-├── test.py               # Testing script
-└── examples/
-    └── basic_usage.py    # Example usage
 ```
 
 ## 🚀 Future Enhancements
