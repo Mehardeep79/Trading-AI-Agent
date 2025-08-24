@@ -34,7 +34,6 @@ yfinance>=0.2.18
 pandas>=1.5.0
 numpy>=1.24.0
 torch>=2.0.0
-matplotlib>=3.6.0
 ```
 
 ## 🛠️ Installation
@@ -120,13 +119,9 @@ memory_size = 2000     # Experience replay buffer size
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
-**Your Name**
+**Mehardeep Singh Sandhu**
 - GitHub: [@Mehardeep79](https://github.com/Mehardeep79)
 - LinkedIn: [Mehardeep Singh Sandhu](https://www.linkedin.com/in/mehardeep-singh-sandhu/)
 
